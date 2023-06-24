@@ -6,6 +6,7 @@ p {
 
 /*o estilo da div desse componente é scoped, da mesma forma que o estilo do componente root, logo a div de cada um terá seu próprio estilo*/
 div {
+  margin: 15px;
   background-color: rgb(250, 181, 216);
   padding: 15px;
 }
