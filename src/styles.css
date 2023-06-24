@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/*esse é um arquivo de estilo global, logo TODOS os elementos do site terão o estilo desse arquivo aplicado, se não tiverem nenhum estilo definido scoped*/
+
+/* o * significa todos os elementos, logo o estilo que eu definir para o * será aplicado para TODOS os elementos do meu site */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

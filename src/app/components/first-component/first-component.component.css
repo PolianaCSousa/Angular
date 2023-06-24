@@ -2,3 +2,10 @@ p {
   color:hotpink;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+/*o estilo da div desse componente é scoped, da mesma forma que o estilo do componente root, logo a div de cada um terá seu próprio estilo*/
+div {
+  background-color: rgb(250, 181, 216);
+  padding: 15px;
+}
