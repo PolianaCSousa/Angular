@@ -1,0 +1,12 @@
+<div *ngIf="name === 'Poliana'; else blocoelse">
+  <p>Seu nome é Poliana!</p>
+</div>
+<!--se a condição for falsa, ele executa o bloco ng-tamplate que nesse caso criei o sinalizador blocoelse-->
+<ng-template #blocoelse>
+  <div>
+    <p>
+      Desculpe, não sei o seu nome.
+    </p>
+  </div>
+</ng-template>
+
